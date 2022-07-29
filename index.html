@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知网阅读</title>
+    <!-- <script src="js.js"></script> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="1/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- 头 -->
+    <div class="header">
+        <img src="https://read.cnki.net/resource/image/read/logo2.png" alt="" class="yuedu">
+        <img src="https://read.cnki.net/resource/image/read/icon13.png" alt="" class="app" id="app">
+        <img src="https://read.cnki.net/resource/image/read/icon14.png" alt="" class="gengduo" id="gengduo">
+    </div>
+    <div class="dis" id="dis">
+        <p class="dis-a">知网阅读首页</p>
+        <p>期刊</p>
+        <p>文献检索</p>
+        <p>工具书</p>
+        <p>图书</p>
+        <p>我的知网</p>
+        <p>充值中心</p>
+    </div>
+    <!-- 轮播图 -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=539" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=540" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=541" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=542" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=531" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=532" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=533" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=534" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=535" alt=""></div>
+          <div class="swiper-slide"><img src="https://bcd.cnki.net/api/image/manalpushimage?id=524" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="inp">
+        <input type="text" id="put" placeholder="搜索">
+    </div>
+    <!-- 图片logo -->
+    <div class="item-logo">
+        <a href="">
+            <img src="https://read.cnki.net/resource/image/read/icon16.png" alt="">
+            <p>期刊</p>
+        </a>
+        <a href="">
+            <img src="https://read.cnki.net/resource/image/read/icon17.png" alt="">
+            <p>图书</p>
+        </a>
+        <a href="">
+            <img src="https://read.cnki.net/resource/image/read/icon15.png" alt="">
+            <p>工具书</p>
+        </a>
+        <a href="">
+            <img src="https://read.cnki.net/resource/image/read/icon18.png" alt="">
+            <p>文集</p>
+        </a>
+    </div>
+    <!-- 今日必读 -->
+    <div class="h-c">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/jrbd.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="h-c-c">
+            <a href="">
+                <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107420016.jpg" alt="">
+                <div class="h-c-c-c">
+                    <h3>人气女王的沟通智慧</h3>
+                    <p class="h-c-p">有些女人，不开口的时候堪称美女，可是一旦说话却会让人对其印象大打折扣。而另一些女人，她们看起来并不显山露水，但是谈吐动人，让人会忍不住刮目相看，人际关系也非常融洽。所以，说话是女人魅力和人气的源泉，一...</p>
+                    <p>崔挚妍</p>
+                </div>
+            </a>
+            <div class="hea-c">
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2108120045.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">新媒体营销密码：开...</div>
+                </a>
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107320042.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">信史立国：当代中国...</div>
+                </a>
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2108010055.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">互联网运营之道</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 新书上架 -->
+    <div class="xssj">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/xssj.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="hea-c">
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2108030007.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">新媒体营销密码：开...</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107410053.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">信史立国：当代中国...</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107350033.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">互联网运营之道</div>
+            </a>
+        </div>
+    </div>
+    <!-- 词条品读 -->
+    <div class="ctpd">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/ctpd.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="https://xyz.cnki.net/crfdimages/2022/03/07/ac8bfa0710954798af42b9de77ec9dcf.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://xyz.cnki.net/crfdimages/2022/03/07/fa17484331ed4d8197e80479650cd608.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://xyz.cnki.net/crfdimages/2022/03/07/0a7077bf274a4e7c973069984b433244.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://xyz.cnki.net/crfdimages/2022/03/04/fe0f31e20dfb426f9e1cec2de579ad0e.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://xyz.cnki.net/crfdimages/2022/03/02/def25ab63d6241e589035675748947e2.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- 好刊推荐 -->
+    <div class="hktj">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/hktj.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="hea-c">
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://c61.cnki.net/CJFD/big/SCWX/SCWX201909.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">四川文学</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://c61.cnki.net/CJFD/big/SSYE/SSYE201908.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">保健文汇</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://c61.cnki.net/CJFD/big/XUYT/XUYT201903.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">西部</div>
+            </a>
+        </div>
+    </div>
+    <!-- 一长条 -->
+    <div class="mfty">
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-mfty.png" alt="">
+        </a>
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-xksd.png" alt="">
+        </a>
+    </div>
+    <!-- 必备工具书 -->
+    <div class="bbgjs">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/gjs.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="hea-c">
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://refbookimg.cnki.net/crfdpic/small/R201609646fm_small.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">孔孟名篇鉴赏词典</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://refbookimg.cnki.net/crfdpic/small/R201011059fm_small.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">不可不知的2000个军……</div>
+            </a>
+            <a href="" class="hea-c-a">
+                <div class="hea-c-d1">
+                    <img src="https://refbookimg.cnki.net/crfdpic/small/R200606329fm_small.jpg" alt="">
+                </div>
+                <div class="hea-c-d2">&nbsp;当代军人词典&nbsp;&nbsp;&nbsp;</div>
+            </a>
+        </div>
+    </div>
+    <!-- 俩长条 -->
+    <div class="mfty">
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-scdh.png" alt="">
+        </a>
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-jtyg.png" alt="">
+        </a>
+    </div>
+    <div class="mfty">
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-lsjj.png" alt="">
+        </a>
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-bkqs.png" alt="">
+        </a>
+    </div>
+    <!-- 热读图书 -->
+    <div class="h-c">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/rdts.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="h-c-c">
+            <a href="">
+                <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107320042.jpg" alt="">
+                <div class="h-c-c-c">
+                    <h3>信史立国：当代中国史册</h3>
+                    <p class="h-c-p">《信史立国：当代中国史研究纵横谈》是一部关于中华人民共和国史研究理论、方法、实践经验以及重要问题的专题文集，也是国史研究名家程中原数十年国史研究之精粹。全书包括三编：一、国史研究的基本理论和方法。包括...</p>
+                    <p>程中原</p>
+                </div>
+            </a>
+            <div class="hea-c">
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107420016.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">人气女王的沟通智慧</div>
+                </a>
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2108010104.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">&nbsp;人类与社会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </a>
+                <a href="" class="hea-c-a">
+                    <div class="hea-c-d1">
+                        <img src="https://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/DZ2107420077.jpg" alt="">
+                    </div>
+                    <div class="hea-c-d2">儿童心理问题实战攻……</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 一长条 -->
+    <div class="mfty">
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-hsjx.png" alt="">
+        </a>
+        <a href="" class="mfty-a">
+            <img src="https://read.cnki.net/resource/image/homeicon/hbar-bycx.png" alt="">
+        </a>
+    </div>
+    <!-- 精选文集 -->
+    <div class="jxwj">
+        <div class="h-t">
+            <img src="https://read.cnki.net/resource/image/homeicon/jxwj.png" alt="">
+            <a href="">更多&gt;</a>
+        </div>
+        <div class="jxwj-d">
+            <a href="" class="jxwj-a">
+                <img src="https://bianke.cnki.net/e/home/Corpuspic/23255" alt="">
+                <p>好方法决定好成绩：……</p>
+            </a>
+            <a href="" class="jxwj-a">
+                <img src="https://bianke.cnki.net/e/home/Corpuspic/23222" alt="">
+                <p>《塔木德》的秘密：……</p>
+            </a>
+            <a href="" class="jxwj-a">
+                <img src="https://bianke.cnki.net/e/home/Corpuspic/22945" alt="">
+                <p>笑出健康来</p>
+            </a>
+            <a href="" class="jxwj-a">
+                <img src="https://bianke.cnki.net/e/home/Corpuspic/23223" alt="">
+                <p>父母怎么说，孩子才……</p>
+            </a>
+        </div>
+    </div>
+    <!-- 结束 -->
+    <div class="footer">
+        <div class="footer-1">
+            <a href="">期刊</a>
+            <a href="">工具书</a>
+            <a href="">图书</a>
+            <a href="">文集</a>
+        </div>
+        <div class="footer-2">
+            <a href="">首页</a>
+            <a href="">搜索</a>
+            <a href="">客户端</a>
+            <a href="">充值</a>
+            <a href="">帮助</a>
+        </div>
+        <div class="footer-3"> ©2022中国知网(CNKI)</div>
+    </div>
+    <script src="1/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script src="./jquery-2.0.3.min.js"></script>
+<script>
+  // VConsole will be exported to `window.VConsole` by default.
+  var vConsole = new window.VConsole();
+</script>
+</body>
+</html>
